@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { SolicitudesTableComponent } from './components/solicitudes-table/solicitudes-table.component';
+import { SharedModule } from 'src/app/shared/shared.module';
 
 
 
@@ -9,7 +10,7 @@ import { SolicitudesTableComponent } from './components/solicitudes-table/solici
     SolicitudesTableComponent
   ],
   imports: [
-    CommonModule
+    SharedModule
   ],
   exports: [
     SolicitudesTableComponent

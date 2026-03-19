@@ -1,0 +1,69 @@
+@import './../../../../shared/styles/styles_general.css';
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.filters {
+  margin-bottom: 20px;
+}
+
+.filters  {
+  width: 100%;
+}
+
+@media (min-width: 600px) {
+  .filters mat-form-field {
+    width: 300px;
+  }
+}
+
+.mat-elevation-z8 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border-radius: 4px;
+  position: relative;
+  min-height: 200px;
+}
+
+.table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+table {
+  width: 100%;
+  min-width: 800px;
+}
+
+/* Paginator alignment */
+mat-paginator {
+  width: 100%;
+  border-top: 1px solid #0000001F;
+}
+
+.error-message {
+  color: #f44336;
+  padding: 10px;
+  background-color: #ffebee;
+  margin: 10px;
+  border-radius: 4px;
+}
+
+.badge {
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 0.85em;
+  font-weight: bold;
+}
+
+.small-select {
+  width: 150px;
+  font-size: 12px;
+}
